@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-57",
+  "source": "fresh",
+  "question": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?",
+  "answer": "Yoon Suk Yeol",
+  "evidence": "7 July – The Supreme Court upholds the 7-year prison sentence and 5-year suspended sentence for former President Yoon Suk Yeol, who was convicted on charges of inciting insurrection and interfering with official duties by ordering his security service to block the execution of a court warrant.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about a former president receiving an upheld 7-year prison sentence in July 2026. I cannot verify this event from my knowledge.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0010050000000000059,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about a former president receiving an upheld 7-year prison sentence in July 2026. I cannot verify this event from my knowledge.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "FINAL: New Delhi",
+ "correct": true,
+ "cost": 0.00010335000000000205,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов. Твои собственные знания устарели: никогда не отвечай по памяти, всегда проверяй инструментами. Сначала web_search, чтобы найти нужную статью. Если во вступлении ответа нет, вызывай page_find по обзорной статье вроде '2026 in Japan', '2026 in sports', '2026 in science' с двумя-тремя ключевыми словами из вопроса. Не повторяй один и тот же вызов с теми же аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. В FINAL только короткий ответ: имя, число, название или дата, без пояснений."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ekF5IM6zY1Wy50NKX0Jt5Tg3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 BWF World Championships host city August\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ekF5IM6zY1Wy50NKX0Jt5Tg3",
+   "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: New Delhi",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

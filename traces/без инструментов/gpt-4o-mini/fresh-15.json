@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-15",
+  "source": "fresh",
+  "question": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?",
+  "answer": "Oleksandr Syrskyi",
+  "evidence": "21 July – President Zelenskyy dismisses Oleksandr Syrskyi as Commander-in-Chief of the Armed Forces of Ukraine, replacing him with Mykhailo Drapatyi amidst protests demanding Syrskyi’s removal.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.5900000000013126e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-5",
+  "source": "fresh",
+  "question": "How many people were killed in the car incident in Leipzig, Germany in May 2026?",
+  "answer": "two people",
+  "evidence": "4 May – A car plows into a crowd in Grimmaische Strasse in Leipzig, killing two people and injuring 22 others.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.56000000000045e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the car incident in Leipzig, Germany in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-8",
+  "source": "fresh",
+  "question": "Who was charged by the FSB in Russia on 29 July 2026?",
+  "answer": "Pavel Durov",
+  "evidence": "29 July – The FSB charges Telegram founder Pavel Durov of assisting Ukraine's \"terrorism\".",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable information about a specific FSB charge on 29 July 2026. My knowledge doesn't include details of that particular event.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0009419999999999984,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Who was charged by the FSB in Russia on 29 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about a specific FSB charge on 29 July 2026. My knowledge doesn't include details of that particular event.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+ "correct": true,
+ "cost": 0.00022919999999998497,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов. Твои собственные знания устарели: никогда не отвечай по памяти, всегда проверяй инструментами. Сначала web_search, чтобы найти нужную статью. Если во вступлении ответа нет, вызывай page_find по обзорной статье вроде '2026 in Japan', '2026 in sports', '2026 in science' с двумя-тремя ключевыми словами из вопроса. Не повторяй один и тот же вызов с теми же аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. В FINAL только короткий ответ: имя, число, название или дата, без пояснений."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aVr0EAiyZ3PZcNf69Kmp9YPK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice art exhibition May 9 to May 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aVr0EAiyZ3PZcNf69Kmp9YPK",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PkZbXVUSXI6v6y2lDvuNp6NX",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Fondazione Prada Venice exhibition title\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PkZbXVUSXI6v6y2lDvuNp6NX",
+   "content": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

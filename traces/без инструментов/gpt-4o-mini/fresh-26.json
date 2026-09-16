@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-26",
+  "source": "fresh",
+  "question": "In Japan, how many people were injured in the leisure boat collision near Haneda Airport on August 24, 2026?",
+  "answer": "nine",
+  "evidence": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.6650000000006937e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "In Japan, how many people were injured in the leisure boat collision near Haneda Airport on August 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

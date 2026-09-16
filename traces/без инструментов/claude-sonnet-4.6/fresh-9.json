@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The 2026 BWF World Championships in badminton were held in August 2026. Based on my knowledge, I'm not confident enough in the specific host city to give a definitive answer.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0011040000000000216,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 BWF World Championships in badminton were held in August 2026. Based on my knowledge, I'm not confident enough in the specific host city to give a definitive answer.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

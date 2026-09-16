@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-30",
+  "source": "fresh",
+  "question": "In which city was journalist Alican Uludag arrested in Turkey in February 2026?",
+  "answer": "Ankara",
+  "evidence": "19 February – Journalist Alican Uludag is arrested in Ankara on charges of insulting president Erdoğan on social media.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable information about the arrest of journalist Alican Uludag in Turkey in February 2026.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0008610000000000007,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "In which city was journalist Alican Uludag arrested in Turkey in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about the arrest of journalist Alican Uludag in Turkey in February 2026.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

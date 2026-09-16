@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have specific statistics about the number of children receiving support for special educational needs and disabilities (SEND) in the United Kingdom in January 2026. While I have knowledge of SEND data trends up to my training cutoff, I cannot reliably cite a precise figure for that specific date without risking inaccuracy.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0015000000000000013,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific statistics about the number of children receiving support for special educational needs and disabilities (SEND) in the United Kingdom in January 2026. While I have knowledge of SEND data trends up to my training cutoff, I cannot reliably cite a precise figure for that specific date without risking inaccuracy.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Bruno Foucher",
+ "correct": true,
+ "cost": 0.0002247000000000221,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов. Твои собственные знания устарели: никогда не отвечай по памяти, всегда проверяй инструментами. Сначала web_search, чтобы найти нужную статью. Если во вступлении ответа нет, вызывай page_find по обзорной статье вроде '2026 in Japan', '2026 in sports', '2026 in science' с двумя-тремя ключевыми словами из вопроса. Не повторяй один и тот же вызов с теми же аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. В FINAL только короткий ответ: имя, число, название или дата, без пояснений."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zA5ohXe8OyA3hJU55aBYoCBn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"French ambassador Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zA5ohXe8OyA3hJU55aBYoCBn",
+   "content": "[2026 in the Central African Republic] The following is a list of events of the year 2026 in the Central African Republic."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bdMriHHFxHrBjOY43Lww2pik",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the Central African Republic\",\"keywords\":\"French ambassador disciplinary proceedings August\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bdMriHHFxHrBjOY43Lww2pik",
+   "content": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui between January 2024 and March 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Bruno Foucher",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

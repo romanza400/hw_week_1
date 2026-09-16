@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-48",
+  "source": "fresh",
+  "question": "Who was dismissed as defence minister in Ukraine on July 15, 2026?",
+  "answer": "Mykhailo Fedorov",
+  "evidence": "15 July – Dismissal of Mykhailo Fedorov: President Zelenskyy dismisses defence minister Mykhailo Fedorov, sparking nationwide protests.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable information about this specific event on July 15, 2026.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0007439999999999947,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Who was dismissed as defence minister in Ukraine on July 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about this specific event on July 15, 2026.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

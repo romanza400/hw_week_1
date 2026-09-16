@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-33",
+  "source": "fresh",
+  "question": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?",
+  "answer": "Marilyn Gladu",
+  "evidence": "April 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about a specific MP defecting from the Conservative Party to the Liberal Party in April 2026. I want to be careful not to confuse this with other defections or misattribute events.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0011519999999999864,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about a specific MP defecting from the Conservative Party to the Liberal Party in April 2026. I want to be careful not to confuse this with other defections or misattribute events.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

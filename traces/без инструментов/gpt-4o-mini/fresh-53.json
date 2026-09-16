@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-53",
+  "source": "fresh",
+  "question": "Who was appointed as the president and chief executive officer of the Rochester Philharmonic Orchestra effective August 17, 2026?",
+  "answer": "Tonya McBride Robles",
+  "evidence": "The Rochester Philharmonic Orchestra announces the appointment of Tonya McBride Robles as its next president and chief executive officer, effective 17 August 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.6499999999974868e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Who was appointed as the president and chief executive officer of the Rochester Philharmonic Orchestra effective August 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

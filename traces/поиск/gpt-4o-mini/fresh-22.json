@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Извините, мне не удалось найти информацию о новом независимом анимационном сериале Мэтта Брали, который был полностью профинансирован 17 марта 2026 года. Однако, если у вас есть какие-либо другие вопросы, пожалуйста, дайте знать! \n\nFINAL: <нет данных>",
+ "correct": false,
+ "cost": 0.0009426000000000156,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов. Твои собственные знания устарели: никогда не отвечай по памяти, всегда проверяй инструментами. Сначала web_search, чтобы найти нужную статью. Если во вступлении ответа нет, вызывай page_find по обзорной статье вроде '2026 in Japan', '2026 in sports', '2026 in science' с двумя-тремя ключевыми словами из вопроса. Не повторяй один и тот же вызов с теми же аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. В FINAL только короткий ответ: имя, число, название или дата, без пояснений."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KN7UE77DrIJegfQ28pGLTupp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"indie animated series Matt Braly funded March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KN7UE77DrIJegfQ28pGLTupp",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uK5Y7F28hYatMUao5PCGmuTk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in animation Matt Braly series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uK5Y7F28hYatMUao5PCGmuTk",
+   "content": "[2026 in animation] 2026 in animation is an overview of notable events, including notable awards, list of films released, television show debuts and endings, and notable deaths."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zSOe0pzWbLWrtM0zAsxD78mb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in animation Matt Braly indie series funded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zSOe0pzWbLWrtM0zAsxD78mb",
+   "content": "[2026 in animation] 2026 in animation is an overview of notable events, including notable awards, list of films released, television show debuts and endings, and notable deaths."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FtvPD04X5pFEzk4Rdt4Hhn0R",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"indie animated series March 17 2026 Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FtvPD04X5pFEzk4Rdt4Hhn0R",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jjcimqPe1WBjtuVdDxYDNNNC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly March 17 2026 indie series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jjcimqPe1WBjtuVdDxYDNNNC",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TZFHWOBcp5DZPtxJDcuhQbw1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TZFHWOBcp5DZPtxJDcuhQbw1",
+   "content": "[List of animated feature films of 2026] This is a list of animated feature films in 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Vb7cQXKcuYeip1l4KWBLJvFN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly new series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Vb7cQXKcuYeip1l4KWBLJvFN",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, мне не удалось найти информацию о новом независимом анимационном сериале Мэтта Брали, который был полностью профинансирован 17 марта 2026 года. Однако, если у вас есть какие-либо другие вопросы, пожалуйста, дайте знать! \n\nFINAL: <нет данных>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

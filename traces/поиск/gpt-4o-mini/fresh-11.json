@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.000998700000000019,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов. Твои собственные знания устарели: никогда не отвечай по памяти, всегда проверяй инструментами. Сначала web_search, чтобы найти нужную статью. Если во вступлении ответа нет, вызывай page_find по обзорной статье вроде '2026 in Japan', '2026 in sports', '2026 in science' с двумя-тремя ключевыми словами из вопроса. Не повторяй один и тот же вызов с теми же аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. В FINAL только короткий ответ: имя, число, название или дата, без пояснений."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0fIOz0NjfYkp5ludstIDGiJI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice exhibition title May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0fIOz0NjfYkp5ludstIDGiJI",
+   "content": "[Michael Heizer] Michael Heizer (born 9 November 1944) is an American land artist specializing in large-scale and site-specific sculptures. Working largely outside the confines of the traditional art spaces of galleries and museums, Heizer has redefined sculpture in terms of size, mass, gesture, and process. A pioneer of 20th-century land art or Earthworks movement, he is widely recognized for sculptures and environmental structures made with earth-moving equipment, which he began creating in the American West in 1967. He lives and works in Hiko, Nevada, and New York City."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_d2vUPPz2tWt2uFIMY4FiELWa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in art exhibitions Fondazione Prada Venice\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_d2vUPPz2tWt2uFIMY4FiELWa",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_AielnQdJedPcnPs95TWgd2ZR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice May 2026 exhibition\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AielnQdJedPcnPs95TWgd2ZR",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MlFyOCXEshAqVhywE25Vm2Ez",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada May 2026 exhibition name\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MlFyOCXEshAqVhywE25Vm2Ez",
+   "content": "[Bouchra] Bouchra (French pronunciation: [buʃ.ra]), originally titled For Aicha, is a 2024 adult animated art drama film directed, written by, and starring Meriem Bennani and Orian Barki. Commissioned by Milan's Fondazione Prada and animated on the Blender platform, it is the first feature film directed by Bennani and Barki. Bennani voices the titular character—a lesbian Moroccan canid in Brooklyn, New York City—in a semi-autobiographical account which chronicles her personal and sexual exploration amid a series of telephone calls with her Casablanca mother. The film is set in the same universe as 2 Lizards, a web series helmed by Bennani and Barki during the COVID-19 pandemic. Production lasted for two years as part of an art exhibition Bennani created for Prada's hometown facility, and involved nearly 20 crew members in New York. Live-action footage was used for the backgrounds, while Bouchra and Aicha's on-screen conversations—added in the later stages of production—were based on Bennani's actual recordings. Several other members of the 2 Lizards team returned for the follow-up, among them composer Flavien Berger. Amid creative struggles and script rewrites, Bennani sought to conceive a story that would resonate with both Western and Middle Eastern audiences. Bouchra debuted at the Prada premises under its original name, For Aicha, on 31 October 2024. Through a retitled and re-edited version, the film made its festival debut in Toronto and New York's 2025 editions, marking Bennani's first appearance at those venues in three years. It became the first animated work nominated for Toronto's Platform Prize, an honour that Ukrainian live-action candidate To the Victory! ultimately won. A month afterward, it received the Gold Q-Hugo at the Chicago International Film Festival's LGBTQ+-oriented OutLook program. The film was released by Film Movement in the U.S. (via international sales company Lucky Number) on 26 June 2026. Critics positively reviewed Bouchra, with many "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WliIwMqNTpi5BfJtR3nkpFJp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada exhibition schedule 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WliIwMqNTpi5BfJtR3nkpFJp",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZBdMxntr8I76r2Ylinq9enXc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Prada exhibition Venice May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZBdMxntr8I76r2Ylinq9enXc",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_R06XYkYmQQzznC9fYePB1Rj3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice May 9 to May 23 2026 exhibition\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_R06XYkYmQQzznC9fYePB1Rj3",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

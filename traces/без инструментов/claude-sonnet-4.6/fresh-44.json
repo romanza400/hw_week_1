@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-44",
+  "source": "fresh",
+  "question": "What is the name of the super-Earth with a confirmed atmosphere reported on July 16, 2026?",
+  "answer": "LHS 1140 b",
+  "evidence": "16 July – Astronomers report the first observationally confirmed atmosphere around a rocky exoplanet within its star's habitable zone, after detecting helium escaping from the upper atmosphere of LHS 1140 b, a super-Earth approximately 49 light-years from Earth.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable knowledge of a specific confirmed super-Earth atmosphere announcement on July 16, 2026. My training data may not include this specific event or I cannot confirm the details with certainty.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.0011219999999999841,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the super-Earth with a confirmed atmosphere reported on July 16, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable knowledge of a specific confirmed super-Earth atmosphere announcement on July 16, 2026. My training data may not include this specific event or I cannot confirm the details with certainty.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

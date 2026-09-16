@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about a Noida International Airport inauguration in March 2026. While I know the Noida International Airport (Jewar Airport) was under development in Uttar Pradesh, I cannot confirm the details of its inauguration in March 2026 or who presided over it.\n\nFINAL: unknown",
+ "correct": false,
+ "cost": 0.001463999999999993,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2025-2026 годов, опираясь только на свои знания. Если не знаешь ответа — не выдумывай, напиши FINAL: unknown. Последняя строка всегда в формате FINAL: <короткий ответ>."
+  },
+  {
+   "role": "user",
+   "content": "Who inaugurated the Noida International Airport in India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about a Noida International Airport inauguration in March 2026. While I know the Noida International Airport (Jewar Airport) was under development in Uttar Pradesh, I cannot confirm the details of its inauguration in March 2026 or who presided over it.\n\nFINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
